@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button{
+  background-color: #22B14C;
+}
+h2{
+  display: flex;
+  justify-content: center;
+}
+
+header > div > img{
+  height: 50px;
+  width: 50px;
+  margin: 0px 10px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#22B14C;
+  padding: 10px;
+  color: #fff;
+}
+main{
+  display: flex;
+  flex-direction: row;
+}
+
+.perfil{
+  background-color: #fff;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cursos{
+  background-color: #fff;
+  width: 70%;
+  border: 1px solid #c4c4c4;
+}
+
+.cursos>h2{
+  border-bottom: 1px solid #c4c4c4;
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+.secaoPerfil>p{
+  color: #22B14C;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.secaoPerfil > img{
+  width: 200px;
+  height: 200px;
+  border-left: 2px solid  #22B14C;
+  border-right: 2px solid  #22B14C;
+}
+
+.popup{
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  background-color: #000000b0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caixa{
+  width: 25%;
+  height: 50%;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  padding: 20px;
+}
+
+.caixa>form>input{
+  border: 2px solid #22B14C;
+  width: 90%;
+  height: 50px;
+  margin: 10px;
+}
+
+.caixa>form>div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.sair{
+  border: 1px solid #22B14C;
+  width: 40%;
+  padding: 10px;
+  color: #22B14C;
+  background-color: #fff;
+}
+
+.entrar{
+  border: 1px solid #22B14C;
+  width: 40%;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  color: #fff;
+  background-color: #22b14c;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.enviar{
+  border: 1px solid #22B14C;
+  width: 40%;
+  padding: 10px;
+  color: #fff;
+  background-color: #22b14c;
+}
+
+.cursos{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cabecalhoCurso{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 10px;
+  font-size: 1.3em;
+}
+
+.like{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+.like>p{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.cursos>img{
+  margin: auto;
+  width: 70%;
+  height: 400px;
+}
